@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Our Online Store</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Our Online Store</h1>
+    </header>
+
+    <div class="controls">
+      <div>
+        <label for="category-filter">Filter by Category:</label>
+        <select id="category-filter">
+          <option value="all">All</option>
+          <option value="electronics">Electronics</option>
+          <option value="clothing">Clothing</option>
+          <option value="home">Home</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="sort-select">Sort by:</label>
+        <select id="sort-select">
+          <option value="price-low-high">Price: Low to High</option>
+          <option value="price-high-low">Price: High to Low</option>
+          <option value="rating-low-high">Rating: Low to High</option>
+          <option value="rating-high-low">Rating: High to Low</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="product-grid" class="product-grid"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

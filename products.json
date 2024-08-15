@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Wireless Bluetooth Speaker",
+        "price": 29.99,
+        "imageURL": "images/speaker.jpg",
+        "category": "electronics",
+        "rating": 4.5
+    },
+    {
+        "name": "Men's Casual T-Shirt",
+        "price": 19.99,
+        "imageURL": "images/Mens_T-shirt.jpeg",
+        "category": "clothing",
+        "rating": 3.8
+    },
+    {
+        "name": "Stainless Steel Coffee Maker",
+        "price": 49.99,
+        "imageURL": "images/Pot.jpg",
+        "category": "home",
+        "rating": 4.9
+    },
+    {
+        "name": "Noise-Cancelling Headphones",
+        "price": 15.99,
+        "imageURL": "images/headphones.webp",
+        "category": "electronics",
+        "rating": 4.2
+    },
+    {
+        "name": "School BagPack",
+        "price": 79.99,
+        "imageURL": "images/bag.webp",
+        "category": "clothing",
+        "rating": 4.6
+    }
+]
